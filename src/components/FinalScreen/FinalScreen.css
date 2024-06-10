@@ -3,16 +3,18 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
+  max-width: 800px;
   width: 100%;
   margin: 20px auto;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .FinalScreen h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 20px;
   text-align: center;
+  color: #333;
 }
 
 .FinalScreen ul {
@@ -20,12 +22,20 @@
   padding: 0;
 }
 
-.FinalScreen li {
-  margin-bottom: 10px;
+.candidate-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
 
-.FinalScreen li p {
+.candidate-card p {
   margin: 5px 0;
+}
+
+.candidate-card p strong {
+  color: #555;
 }
 
 .FinalScreen button {
